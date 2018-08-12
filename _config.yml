@@ -24,8 +24,8 @@ title:                 Joe Yang
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+  "make difference, change the world".
+  
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -41,15 +41,15 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <Joe> <yang>
-  email:               <mail@domain.tld>
+  name:                <Joe> <Yang>
+  email:               <1514784049@qq.tld>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
   © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
+
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.

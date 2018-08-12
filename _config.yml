@@ -32,7 +32,7 @@ tagline:               >
   "路漫漫其修远兮,吾将上下而求索".
 
 # A list of keywords for your blog
-keywords:              [123456789]
+keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -48,7 +48,7 @@ author:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2018. All rights reserved.
+  © 2018. All rights reserved. 
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.

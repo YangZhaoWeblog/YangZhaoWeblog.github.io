@@ -70,7 +70,7 @@ paginate_path:         /page-:num/
 # Customizaton
 # ========================================================================================
 
-# Sidebar image and theme color of the site.
+# Sidebar image and theme color of the site.     //首页背景图片
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
@@ -269,11 +269,10 @@ plugins:
 
 # Used on index and about sites
 # social:
-#   name:                <firstname> <lastname>
+#   name:                Joe Yang
 #   links:
 #     - https://twitter.com/<username>
-#     - https://github.com/<username>
-
+#     - https://github.com/YangZhaoWeblog
 
 # Other Plugins
 # ---------------------------------------------------------------------------------------

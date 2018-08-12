@@ -32,7 +32,7 @@ tagline:               >
   "路漫漫其修远兮,吾将上下而求索".
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [123456789]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -41,8 +41,8 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <Joe> <Yang>
-  email:               <1514784049@qq.tld>
+  name:                Joe Yang
+  email:               1514784049@qq.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -268,10 +268,10 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
+#social:
 #   name:                Joe Yang
 #   links:
-#     - https://twitter.com/<username>
+#       #- https://twitter.com/<username>
 #     - https://github.com/YangZhaoWeblog
 
 # Other Plugins

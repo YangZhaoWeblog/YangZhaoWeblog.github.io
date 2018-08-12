@@ -83,7 +83,7 @@ date_formats:
 tinyletter:
   title:               Newsletter
   label:               Email
-  placeholder:         mail@example.com
+  placeholder:         1514784049@qq.com
   button:              Subscribe
   message:             |
     Subscribe to my newsletter.

@@ -13,13 +13,16 @@ static 存在与 date区或者bbs区的对象才被收回， 不是stack变量�
 综上所述， non-loacl static 变量就是  不受作用域限制 且  为static 的对象
 
 举例子
+```c++
 //a.cpp
     class hen
     {
     Public:
         size_t make_eggs( );
     }
+```
 
+```c++
 hen ji;//这是一个 non-local static 变量
 //b.cpp
 
@@ -33,9 +36,12 @@ public:
         ji.make_egg();
     }
 }
+```c++
 
 ok, 我现在调用这个egg函数
 
+
+```c++
 // main.cpp
 
 #include "a.cpp"
@@ -44,7 +50,7 @@ int main()
 {
     eggs   a；
 }
-
+```
 
 那么 a要被构造必须要 ji先被构造， 不然会很可怕。
 

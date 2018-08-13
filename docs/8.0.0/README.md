@@ -8,5 +8,4 @@ permalink: /docs/8.0.0/
 
 # Poems And Futures
 
-    Let life be beautiful like summer flowers and death like autume leaves.
 

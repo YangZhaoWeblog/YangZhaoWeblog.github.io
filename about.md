@@ -13,8 +13,8 @@ My name is Joe Yang, you can also call me 杨兆。At present, I am a sophomore 
 
 [comment]: <> (![QQ](/assets/icons/QQ.png)
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="../assets/icons/QQ.png"      width="200" height="260" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="../assets/icons/wechat.png"  width="200" height="260" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="../assets/icons/QQ.png"      width="175" height="175" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="../assets/icons/wechat.png"  width="175" height="175" ></div>
 
 
 

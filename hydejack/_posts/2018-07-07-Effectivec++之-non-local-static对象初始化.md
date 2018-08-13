@@ -6,7 +6,7 @@ description: >
     什么是 non-local static 对象？？通俗来说， local对象  ——> 有域限制的对象， 比如一个命名空间内，一个块内等等。（受作用域限制）
 ---
 
-什么是 non-local static 对象？？通俗来说
+**什么是 non-local static 对象？？通俗来说**
 local对象  ——> 有域限制的对象， 比如一个命名空间内，一个块内等等。           （受作用域限制）
 non-local 对象 ——> 整个程序结束对象才，比如全局变量                          （不受作用域限制）
 static 存在与 date区或者bbs区的对象才被收回， 不是stack变量， heap变量等等。  (直到程序完整结束才被收回)
@@ -36,7 +36,7 @@ public:
         ji.make_egg();
     }
 }
-```c++
+```
 
 ok, 我现在调用这个egg函数
 
@@ -57,9 +57,10 @@ int main()
 但是， c++并没有规定在main中，不同  .cpp文件的编译顺序，所以怎么办呢？？？
 
 
-解决方法
+**解决方法**
 用 local static 变量 代替 non-local static 变量
 
+```c++
 //a.cpp
 
 class hen
@@ -73,7 +74,9 @@ hen& chicken()
     static hen ji;
     return  ji;
 }
+```
 
+```c++
 //b.cpp
 
 
@@ -91,10 +94,12 @@ eggs& egg()
     static egg a
     return a;
 }
+```
 
 
 ok, 我现在调用这个egg函数
 
+```c++
 // main.cpp
 
 #include "a.cpp"
@@ -103,9 +108,11 @@ int main()
 {
     eggs   egg()；
 }
+```
+
 这样就可以避免 未编译对象的发生， 为什么呢？？？
 
-分析：
+**分析：**
 
 从 main() 调用 eggs对象，
 
@@ -117,7 +124,6 @@ local static         的做法  ——> 调用  eggs() ——> 调用 egg 构造
 
 
 
-缺陷
+**缺陷**
 如果对象 A 的初始化依赖于 B， 而 B 能否初始化又取决于 A 是否进行初始化。那么只能去 手动初始化（头疼）
 
-什么是这种情况我也不了解，了解了会续上

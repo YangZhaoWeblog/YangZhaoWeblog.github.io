@@ -6,7 +6,8 @@ description: >
     什么是 non-local static 对象？？通俗来说， local对象  ——> 有域限制的对象， 比如一个命名空间内，一个块内等等。（受作用域限制）
 ---
 
-**什么是 non-local static 对象？？通俗来说**
+**什么是 non-local static 对象？？通俗来说** 
+>
 local对象  ——> 有域限制的对象， 比如一个命名空间内，一个块内等等。           （受作用域限制）
 non-local 对象 ——> 整个程序结束对象才，比如全局变量                          （不受作用域限制）
 static 存在与 date区或者bbs区的对象才被收回， 不是stack变量， heap变量等等。  (直到程序完整结束才被收回)

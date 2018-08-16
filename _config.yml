@@ -52,9 +52,9 @@ copyright:             >
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
-# legal:
-#   - title:             Impress
-#     href:              /impress/
+ legal:
+     #- title:             Impress
+     #href:              /impress/
 #   - title:             Cookies Policy
 #     href:              /cookies-policy/
 
@@ -127,7 +127,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                <disqus_shortname>
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
@@ -267,11 +267,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-#social:
-#   name:                Joe Yang
-#   links:
-#       #- https://twitter.com/<username>
-#     - https://github.com/YangZhaoWeblog
+social:
+   name:                Joe Yang
+   links:
+       #- https://twitter.com/<username>
+     - https://github.com/YangZhaoWeblog
 
 # Other Plugins
 # ---------------------------------------------------------------------------------------

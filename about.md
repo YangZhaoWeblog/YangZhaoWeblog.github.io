@@ -2,14 +2,13 @@
 image: /assets/img/hydejack-8.jpg
 menu: true
 order: 4
-
 ---
 
 # About
 > "This is Joe Yang's(Yang Zhao's) personal website."
 
 
-My name is Joe Yang, you can also call me 杨兆。At present, I am a sophomore in software engineering of DNUI, and will graduate in 2021. If you want to contact me, you can go through the following ways. 
+&emsp;&emsp;My name is Joe Yang, you can also call me 杨兆。At present, I am a sophomore in software engineering of DNUI, and will graduate in 2021. If you want to contact me, you can go through the following ways. 
 
 [comment]: <> (![QQ](/assets/icons/QQ.png)
 

@@ -8,9 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    My name is Joe Yang, you can also call me 杨兆。At present, I am a sophomore in software engineering of DNUI, and will graduate in 2021.
-    If you want to contact me, you can go through the following ways.
-    **QQ** 1514784049
+    &emsp;&emsp; My name is Joe Yang, you can also call me 杨兆。At present, I am a sophomore in software engineering of DNUI, and will graduate in 2021. 
 
   # This photo will be used in the about section
   picture:
@@ -69,7 +67,7 @@ author2:
   name:                Joe Yang
   email:               1514784049@qq.com
   about:             |
-    My name is Joe Yang, 2you can also call me 杨兆。At present, I am a sophomore in DNUI software engineering, and will graduate in 2021.
+   &emsp;&emsp; My name is Joe Yang, 2you can also call me 杨兆。At present, I am a sophomore in DNUI software engineering, and will graduate in 2021.
 
   picture:           /assets/icons/icon.png   
   #twitter:           <username>

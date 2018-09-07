@@ -52,7 +52,7 @@ copyright:             >
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
- legal:
+# legal:
      #- title:             Impress
      #href:              /impress/
 #   - title:             Cookies Policy

@@ -1,4 +1,5 @@
---- layout: post
+--- 
+layout: post
 title: Effectivec++之 non-local static对象初始化
 author: author1
 description: >

@@ -7,4 +7,8 @@ order: 6
 # Personal_Note
 > There are some note for myself.
 
-### Ac自动机
+### Trie树(前缀树)
+> 储存字符串的一种数据结构  
+
+
+

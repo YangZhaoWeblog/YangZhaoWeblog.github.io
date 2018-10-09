@@ -44,3 +44,30 @@ cout << b << endl;
 
 
 
+
+
+
+
+create table book( bno nvarchar(255) , name nvarchar(255),
+    -> price float,
+    -> author nvarchar(255),
+    -> publish nvarchar(255),
+    -> publishdate datetime
+    -> );
+
+
+
+create table reader
+    -> (
+    -> rid nvarchar(255),
+    -> name nvarchar(255),
+    -> sex nvarchar(255),
+    -> birthdate datetime
+    -> );
+
+
+create table borrow ( rid float,
+    -> bno float,
+    -> borrowdate datetime
+    -> );
+

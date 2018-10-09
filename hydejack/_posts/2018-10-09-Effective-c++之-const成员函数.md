@@ -15,12 +15,12 @@ description: >
 
 <br>
 #### 一. mutable 变量
-	表示这些函数极其有可能被修改，即使在 const 成员函数内(被间接修改)
+	表示这些函数极其有可能被修改，即在 const 成员函数内(被间接修改)
 
 <br>
 #### 二. 避免 const 与 non-const 成员函数的重复
 > “调用 cosnt 成员函数来实现 non-const 成员函数
-eg:
+<br>
 ```c++
 class example
 {

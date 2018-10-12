@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: 2018-10-09-Effective-c++之-const成员函数
+title: Effective-c++之-const成员函数
 author: author1
 description: > 
  尽可能的使用const
@@ -19,9 +19,13 @@ description: >
 
 <br>
 #### 二. 避免 const 与 non-const 成员函数的重复
-> “调用 cosnt 成员函数来实现 non-const 成员函数
+> “调用 cosnt 成员函数来实现 non-const 成员函数     
 <br>
+
+
+
 ```c++
+
 class example
 {
     string a = "0123456";
@@ -41,6 +45,10 @@ public:
             );
     }
 };
+
 ```
 
-#### 编译器只要求不能直接修改对象， 但实际编程中， 我们也要做到让其不能间接修改
+#### 编译器只要求不能直接修改对象， 但实际编程中， 我们也要做到让其不能间接修改  
+
+
+

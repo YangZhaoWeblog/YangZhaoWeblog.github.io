@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A small project for Sudoku 
+title: STudent-Iformation-manage-system
 author: author1
 description: >
    This is a project for database which is view  by QT, back end by c++.
